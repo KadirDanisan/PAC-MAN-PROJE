@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAC-MAN</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap İcon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-top">
+    <!-- Start Bootstrap Nav -->
+     <nav class="navbar navbar-expand-md bg-body-tertiary" id="mainNav">
+      <div class="container-fluid shadow p-3">
+        <a class="navbar-brand fw-bold ps-5 ms-5 fs-5" href="#page-top"
+          >
+            PAC-MAN
+          <img class="pac-man-logo" src="img/320px-Pac_Man.svg.png" alt="pac-man-logo">
+          <img class="pac-man-logo" src="img/Pinky_stock_art_sprite_pacman_website.webp">
+          </a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span>MENU</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5 pe-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#download">Download</a>
+            </li>
+            <li class="nav-item">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn ms-5"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="bi bi-chat-text-fill"></i>
+                Send Feedback
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal Send Feedback -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog container">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Send Feedback
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body border-0 p-4">
+            <form
+              id="contactForm"
+              action="https://formsubmit.co/kadirdaniisan@gmail.com"
+              method="post"
+            >
+              <!-- Name input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Enter your name..."
+                />
+                <label for="name">Full name</label>
+                <div class="invalid-feedback">A name is required.</div>
+              </div>
+              <!-- Email address input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="name@example.com"
+                />
+                <label for="email">Email address</label>
+                <div class="invalid-feedback">An email is required.</div>
+                <div class="invalid-feedback">Email is not valid.</div>
+              </div>
+              <!-- Phone number input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="(123) 456-7890"
+                />
+                <label for="phone">Phone number</label>
+                <div class="invalid-feedback">A phone number is required.</div>
+              </div>
+              <!-- Message input-->
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  type="text"
+                  placeholder="Enter your message here..."
+                  style="height: 10rem"
+                ></textarea>
+                <label for="message">Message</label>
+                <div class="invalid-feedback">A message is required.</div>
+              </div>
+
+              <!-- Submit Button-->
+              <div class="d-grid mb-3 mt-3">
+                <button
+                  class="btn btn-primary rounded-pill btn-lg"
+                  id="submitButton"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Pac-Man Masthead -->
+    <header class="masthead">
+      <div class="container">
+        <div class="row align-items-center mt-5">
+          <div class="col-lg-6">
+            <div>
+              <img class="pac-man-svg" src="img/320px-Pac_Man.svg.png" alt="pac-man-svg">
+              <img class="pinky-ghost" src="img/Pinky_stock_art_sprite_pacman_website.webp" alt="pinky-ghost">
+            </div>
+            <div class="show-lead ms-5 text-center text-lg-start">
+              <span class="showcase"
+                >PAC-MAN</span
+              >
+              <p class="lead text-muted mt-3">
+                <b>BANDAI NAMCO Entertainment America Inc.
+                  Contains adsIn-app purchases</b>
+              </p>
+            </div>
+            <div class="d-flex flex-column flex-lg-row align-items-center mt-5 ">
+                <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=com.namcobandaigames.pacmantournaments&hl=en"><img class="app-badge" src="img/google-play-badge.svg" alt="..."></a>
+                <a href="https://apps.apple.com/us/app/pac-man/id293778748"><img class="app-badge" src="img/app-store-badge.svg" alt="..."></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="masthead-device-mockup position-relative">
+                <div class="phone-ball">
+                    <svg></svg>
+                </div>
+                    <circle cx="50" cy="50" r="50"></circle>
+                </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="50"></circle>
+                </svg>
+                <div class="device-wrapper z-2 ">
+                    <img class="img-fluid " src="img/phone-pac-man.png">
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- New Cosmetic -->
+    <aside class="application-p text-center bg-gradient-primary-to-secondary">
+      <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+          <p class="next-web fs-1 mt-5">
+            <b>What's New</b><br>
+            Brand new Adventure. Enjoy custom themed Mazes, Collectible Cards, and an exclusive Cosmetic Skin!
+            Bug fixes and performance improvements
+            </p>
+          <img src="img/pacman-logo.png" class="application-pac-man" href="#" alt="the-next-web" />
+        </div>
+      </div>
+    </aside>
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="row m-5 align-items-center">
+          <div class="device-mockup col-lg-4 p-5">
+            <div class="phone-ball">
+                <svg></svg>
+            </div>
+                <circle cx="50" cy="50" r="50"></circle>
+            </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
+            </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="device-wrapper">
+                <img class="img-fluid" src="img/phone-pac-man.png" />
+            </div>
+          </div>
+          <div class="col-lg-8 order-lg-1 mb-5 mg">
+            <div class="container px-5">
+              <div class="row text-center">
+                <div class="col-lg-6">
+                  <i
+                    class="bi-phone icon-feature text-gradient d-block mb-3"
+                  ></i>
+                  <h3>Device Mockups</h3>
+                  <p>
+                    Ready to use HTML/CSS device mockups, no Photoshop required!
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <i
+                    class="bi bi-camera icon-feature text-gradient d-block mb-3"
+                  ></i>
+                  <h3>Flexible Use</h3>
+                  <p>
+                    Put an image, video, animation, or anything else in the
+                    screen!
+                  </p>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-lg-6">
+                  <i
+                    class="bi bi-gift-fill icon-feature text-gradient d-block mb-3"
+                  ></i>
+                  <h3>Free to Use</h3>
+                  <p>
+                    As always, this theme is free to download and use for any
+                    purpose!
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <i
+                    class="bi bi-patch-check-fill icon-feature text-gradient d-block mb-3"
+                  ></i>
+                  <h3>Open Source</h3>
+                  <p>
+                    As always, this theme is free to download and use for any
+                    purpose!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Date Safety -->
+    <section class="design">
+      <div class="container">
+        <div
+          class="row gx-5 align-items-center justify-content-center justify-content-lg-between"
+        >
+          <div class="col-12 col-lg-5">
+            <h2 class="display-4 lh-1 mb-4">Data safety</h2>
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+              Safety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer provided this information and may update it over time.
+            </p>
+          </div>
+          <div class="col-sm-8 col-md-6">
+            <div class="px-5 px-sm-0">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/MKAGPD_Pac_Man_Artwork.webp"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pls Download -->
+    <section class="cta">
+      <div class="cta-content">
+        <div class="container px-5">
+          <h2 class="text-white display-1 lh-1 mb-4">
+            PAC-MAN WORLD Re-PAC
+            <br />
+            PlayStation.Store
+          </h2>
+          <a
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            href="https://store.playstation.com/tr-tr/product/EP0700-PPSA06398_00-PACMANWORLDRE007"
+            target="_blank"
+            >Download</a
+          >
+        </div>
+      </div>
+    </section>
+     <!-- Get the App Link -->
+    <section class="bg-gradient-primary-to-secondary" id="download">
+      <div class="container px-5">
+        <h2 class="text-center text-white mb-4">Get the app now!</h2>
+        <div
+          class="d-flex flex-column flex-lg-row align-items-center justify-content-center"
+        >
+          <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=com.namcobandaigames.pacmantournaments&hl=en"
+            ><img class="app-badge" src="img/google-play-badge.svg" alt="..."
+          /></a>
+          <a href="https://apps.apple.com/us/app/pac-man/id293778748?platform=iphone"
+            ><img class="app-badge" src="img/app-store-badge.svg" alt="..."
+          /></a>
+        </div>
+      </div>
+    </section>
+      <!-- Kadir Danışan -->
+    <footer>
+      <div class="footer-text">
+        <h3>Kadir Danışan</h3>
+      </div>
+    </footer>
+    <!-- Bootstrap HTML Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

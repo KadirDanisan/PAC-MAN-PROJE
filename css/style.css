@@ -1,0 +1,609 @@
+#mainNav {
+    background-color: #2222d5 !important;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #ffff00;
+}
+
+.masthead {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    z-index: -5;
+}
+
+.pac-man-logo {
+    width: 20px;
+}
+
+.pinky-ghost {
+    width: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffff00 !important;
+}
+
+.nav-item button {
+    color: #ffff00 !important;
+}
+
+.showcase {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1 !important;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0 !important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 999;
+}
+
+.text-lg-start {
+    text-align: left !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 350px !important;
+}
+.pac-man-svg{
+    width: 100px;
+}
+.masthead .pac-man-svg {
+    position: fixed;
+    z-index: -5;
+    top: 145px;
+    left: 50px;
+    display: none;
+}
+
+.masthead .pinky-ghost {
+    position: fixed;
+    z-index: -5;
+    top: 145px;
+    right: 30px;
+    display: none;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #2937f0, #000000) !important;
+}
+
+.px-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.application-p {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    height: 400px !important;
+    color: #ffff00;
+}
+
+.application-p .row .application-pac-man {
+    width: 100px;
+    height: 150px; 
+    display: none;
+}
+
+.px-5 .gx-5 img {
+    height: 3rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.icon-feature {
+    font-size: 4rem;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#2937f0, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.design {
+    background-color: #ffff00;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.masthead .masthead-device-mockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.masthead-device-mockup .phone-ball svg {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(#2937f0, #000000);
+    z-index: -1;
+}
+
+.masthead .masthead-device-mockup .device-wrapper {
+    margin-top: 50px;
+}
+
+.masthead .masthead-device-mockup .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 10%;
+    left: 20%;
+}
+
+.masthead .masthead-device-mockup .shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #2937f0;
+    top: 20%;
+    right: 20%;
+}
+
+.design .img-9 {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 50% !important;
+}
+
+.px-sm-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+section.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202208/0414/7QP8lmR72NtTQ1ts8kJUmR9p.png?w=1920&thumb=false);
+    background-position: center;
+    background-size: cover;
+}
+
+.cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+.features .device-mockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.device-mockup .phone-ball svg {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: -125px;
+    top: -125px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(#2937f0, #000000);
+    z-index: -1;
+}
+
+.features .device-mockup .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 80%;
+    right: 15%;
+}
+
+.features .device-mockup .shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #2937f0;
+    top: 80%;
+    left: 15%;
+}
+
+#download {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.app-badge {
+    height: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+
+.modal .modal-header {
+    background: -webkit-linear-gradient(#2937f0, #000);
+    color: #f2f2f2;
+}
+
+.nav-item .btn {
+    border-radius: 50px !important;
+}
+
+.model-footer {
+    display: grid !important;
+}
+
+.form-floating {
+    position: relative;
+}
+
+.masthead .masthead-device-mockup .phone-ball {
+    display: none;
+}
+
+.features .device-mockup .phone-ball {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .masthead .masthead-device-mockup .phone-ball {
+        display: block;
+        position: absolute;
+
+    }
+
+    .features .device-mockup .phone-ball {
+        display: block;
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) {
+    .masthead-device-mockup .phone-ball svg {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        top: 500px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .masthead .masthead-device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 10%;
+        left: 30%;
+    }
+
+    .masthead .masthead-device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 20%;
+        right: 30%;
+    }
+
+    .device-mockup .phone-ball svg {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -125px;
+        top: -125px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .features .device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 80%;
+        right: 25%;
+    }
+
+    .features .device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 80%;
+        left: 25%;
+    }
+    .application-p .row .application-pac-man {
+        width: 100px;
+        height: 150px; 
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .masthead-device-mockup .phone-ball svg {
+        display: flex;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .masthead .masthead-device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 10%;
+        left: 15%;
+    }
+
+    .masthead .masthead-device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 20%;
+        right: 15%;
+    }
+
+    .device-mockup .phone-ball svg {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -80px;
+        top: -125px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .features .device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 80%;
+        right: 0%;
+    }
+
+    .features .device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 80%;
+        left: 0%;
+    }
+    .masthead .pac-man-svg {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        left: 530px;
+      display: block;
+    }
+    
+    .masthead .pinky-ghost {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        right: 30px;
+        display: block;
+    }
+    .masthead .col-lg-6 .flex-column{
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .masthead-device-mockup .phone-ball svg {
+        display: flex;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .masthead .masthead-device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 10%;
+        left: 20%;
+    }
+
+    .masthead .masthead-device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 20%;
+        right: 20%;
+    }
+
+    .device-mockup .phone-ball svg {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -80px;
+        top: -125px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000) z-index -1;
+    }
+
+    .features .device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 80%;
+        right: 5%;
+    }
+
+    .features .device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 80%;
+        left: 5%;
+    }
+
+    .design .col-sm-8 .rounded-circle {
+        width: 450px;
+        height: 450px;
+    }
+    .masthead .pac-man-svg {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        left: 530px;
+      display: block;
+    }
+    
+    .masthead .pinky-ghost {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        right: 30px;
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .masthead-device-mockup .device-wrapper .img-fluid {
+        width: 200px;
+        height: 400px !important;
+    }
+
+    .masthead-device-mockup .phone-ball svg {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .masthead .masthead-device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 10%;
+        left: 25%;
+    }
+
+    .masthead .masthead-device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 20%;
+        right: 25%;
+    }
+
+    .device-mockup .phone-ball svg {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -80px;
+        top: -125px;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#2937f0, #000000);
+        z-index: -1;
+    }
+
+    .features .device-mockup .shape-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-10deg);
+        fill: #2937f0;
+        bottom: 80%;
+        right: 10%;
+    }
+
+    .features .device-mockup .shape-2 {
+        position: absolute;
+        height: 0.75rem;
+        width: 0.75rem;
+        fill: #2937f0;
+        top: 80%;
+        left: 10%;
+    }
+
+    .design .col-sm-8 .rounded-circle {
+        width: 600px;
+        height: 600px;
+    }
+    .masthead .pac-man-svg {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        left: 10px;
+    }
+    .masthead .pinky-ghost {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        right: 30px;
+        
+    }
+}
+@media (min-width: 1600px){
+    .masthead .pac-man-svg {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        left: 100px;
+    }
+    .masthead .pinky-ghost {
+        position: fixed;
+        z-index: -5;
+        top: 145px;
+        right: 100px;
+    }
+}
